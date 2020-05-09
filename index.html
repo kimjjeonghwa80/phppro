@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/photo.css">
-    <title>相册在线编辑</title>
+    <title>허그북 편집</title>
 </head>
 <body class="t210x285" templateSize="210x285" bgnum="19" templateTheme="template_tour" templateNum="11">
     <header class="hl50">
 		<div class="pl40 pr40">
-			<a href="index" class="fs22 fb cPink_2">拍完印</a>
+			<a href="index" class="fs22 fb cPink_2">허그북</a>
 			<div class="fr fs12">
-				<span>您好！漫道娘</span>&nbsp;&nbsp;|&nbsp;&nbsp;
-				<a href="###">首页</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-				<a href="###">我的作品</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-				<a href="###">购物车( <b class="fn cRed">42</b> )</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-				<a href="###">帮助</a>
+				<span>Let's Hug!</span>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="###">홈</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="###">내작품</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="###">장바구니( <b class="fn cRed">42</b> )</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="###">위시리스트</a>
 			</div>
 		</div>
     </header>
@@ -26,31 +26,29 @@
         var _siteurl='/'
     </script>
     <div class="unSelectText">
-        <!-- 设置菜单 -->
+        <!-- 설정메뉴 -->
 	    <ul class="settingMenu tc fs12">
-            <li class="unClick Stand"><i class="icon-layout"></i>模板</li>
-            <li class="unClick"><i class="icon-image"></i>背景</li>
-            <li class="unClick"><i class="icon-checkbox-unchecked"></i>相框</li>
-            <li><i class="icon-photo"></i>照片</li>
-            <li class="unClick"><i class="icon-pen2"></i>文字</li>
-            <!-- <li><i class="icon-star"></i>装饰</li> -->
+            <li class="unClick Stand"><i class="icon-layout"></i>템플릿</li>
+            <li class="unClick"><i class="icon-image"></i>배경</li>
+            <li class="unClick"><i class="icon-checkbox-unchecked"></i>사진프레임</li>
+            <li><i class="icon-photo"></i>사진</li>
+            <li class="unClick"><i class="icon-pen2"></i>문자</li>
         </ul>
-        <!-- 模板选择 -->
+        <!-- 템플릿선택-->
 	    <div class="settingBox" style="left:39px">
-            <h3 class="mt15 cd"><i class="icon-layout mr5"></i>模板</h3>
-            <span class="settingBoxBtn pr" name="template_school">校园<i></i></span>
-            <span class="settingBoxBtn pr" name="template_marry">结婚<i></i></span>
-            <span class="settingBoxBtn pr" name="template_love">爱情<i class="pa"></i></span>
-            <span class="settingBoxBtn pr" name="template_offspring">亲子<i class="pa"></i></span>
-            <span class="settingBoxBtn pr" name="template_magazine">杂志<i class="pa"></i></span>
-            <span class="settingBoxBtn pr" name="template_tour">旅行<i class="pa"></i></span>
-            <!-- <ul class="templateSetting settingOption pt10">
-            </ul> -->
+            <h3 class="mt15 cd"><i class="icon-layout mr5"></i>템플릿</h3>
+            <span class="settingBoxBtn pr" name="template_school">캠퍼스<i></i></span>
+            <span class="settingBoxBtn pr" name="template_marry">결혼<i></i></span>
+            <span class="settingBoxBtn pr" name="template_love">사랑<i class="pa"></i></span>
+            <span class="settingBoxBtn pr" name="template_offspring">부모/자식<i class="pa"></i></span>
+            <span class="settingBoxBtn pr" name="template_magazine">매거진<i class="pa"></i></span>
+            <span class="settingBoxBtn pr" name="template_tour">여행<i class="pa"></i></span>
+          
         </div>
-        <!-- 背景选择 -->
+        <!-- 배경선택-->
 	    <div class="settingBox">
-            <h3 class="mt15 cd"><i class="icon-image mr5"></i>背景</h3>
-            <span class="settingBoxBtn Stand pr">通用背景素材<i class="pa"></i></span>
+            <h3 class="mt15 cd"><i class="icon-image mr5"></i>배경</h3>
+            <span class="settingBoxBtn Stand pr">일반배경소재<i class="pa"></i></span>
             <div class="scroll-wrap mt10">
                 <div class="scroll-cont" name="bgphoto" >
                     <ul class="bgSetting settingOption">
@@ -60,18 +58,16 @@
                 <div class="scroll-bar" name="bgphoto" ><span class="scroll-slider" name="bgphoto" ></span></div>
             </div>	
         </div>
-        <!-- 相框选择 -->
+        <!-- 사진프레임선택-->
 	    <div class="settingBox">
-            <h3 class="mt15 cd"><i class="icon-checkbox-unchecked mr5"></i>相框</h3>
+            <h3 class="mt15 cd"><i class="icon-checkbox-unchecked mr5"></i>사진프레임</h3>
             <div class="settingOption frameStyleList pt10" style="display:block;">
-                <!-- <ul class="frameStyle template_xy_t_01_style">
-                    <li><img src="/images/phot/210x285o_theme/template_school/t_01_s/frame_01.png" alt="frame_01.png"></li>
-                </ul> -->
+               
             </div>
         </div>
-        <!-- 照片选择 -->
+        <!-- 사진선택-->
 	    <div class="settingBox pr">
-            <h3 class="mt15 cd"><i class="icon-photo mr5"></i>我的照片</h3>
+            <h3 class="mt15 cd"><i class="icon-photo mr5"></i>사진</h3>
             <div class="scroll-wrap mt10">
                 <div class="scroll-cont photoSetting settingOption" name="myphoto" >
                     <ul>
@@ -87,10 +83,10 @@
                 </div>
                 <div class="scroll-bar" name="myphoto" ><span class="scroll-slider" name="myphoto" ></span></div>
             </div>
-            <!-- 照片提示 -->
+            <!-- 사진提示 -->
             <div class="tc l30 myPhotoTip">
-                <span onclick="popTip('<p class=tc><b class=cPink_2>请在相册模板对应的图片区域<br />双击选择图片</b></p>',11)" class="fs12 cGray cp">
-                    <i class="icon-tixing mr5"></i>无法选择图片？
+                <span onclick="popTip('<p class=tc><b class=cPink_2>앨범 템플릿 해당 그림영역에<br />사진을 선택하려면 두 번 클릭</b></p>',11)" class="fs12 cGray cp">
+                    <i class="icon-tixing mr5"></i>사진을 선택할 수 없습니까?
                 </span>
             </div>
         </div>
@@ -100,17 +96,17 @@
             <div class="gnMenu l30 fs12 cd mt30 tc">
                 <span class="gnBtn_gray mr10 pr fs12">
                     <i class="icon-stack2"></i>
-                    当前第 <b class="fn photoNowNum">1</b>
-                    / 共 <b class="fn photoTotalNum"></b> 页
-                    &nbsp;总价 ￥<b class="photoTotalPrice pr">59.00</b>
+                    현재 <b class="fn photoNowNum">1</b>
+                    / 총계 <b class="fn photoTotalNum"></b> 페이지
+                    &nbsp;총가격<b class="photoTotalPrice pr">59,000</b>
                 </span>
-                <a class="gnBtn_gray mr10 addPhotoBtn" href="javascript:void(0)">+ 加页 / ￥<b class="photoAddPrice">5</b></a>
-				<a class="gnBtn_gray mr10 lessPhotoBtn unclick" href="javascript:void(0)">删除本页</a>
+                <a class="gnBtn_gray mr10 addPhotoBtn" href="javascript:void(0)">+ 페이지추가 / <b class="photoAddPrice">5,000</b></a>
+				<a class="gnBtn_gray mr10 lessPhotoBtn unclick" href="javascript:void(0)">이 페이지를 삭제</a>
 				<!-- <span class="gnBtn_gray mr10"></span> -->
-				<a class="gnBtn_gray mr10 prevPhotoBtn unclick" href="javascript:void(0)">上一页</a>
-				<a class="gnBtn_gray mr10 nextPhotoBtn" href="javascript:void(0)">下一页</a>
-				<a class="gnBtn_red_2 cWhite w50 mr10 photo_setting_save" href="javascript:void(0)"><i class="icon-inbox fs14 mr5"></i>保存</a>
-				<a class="gnBtn_green cWhite w50 mr10" href="photo_view" target="_blank">预览</a>
+				<a class="gnBtn_gray mr10 prevPhotoBtn unclick" href="javascript:void(0)">이전</a>
+				<a class="gnBtn_gray mr10 nextPhotoBtn" href="javascript:void(0)">다음페이지</a>
+				<a class="gnBtn_red_2 cWhite w50 mr10 photo_setting_save" href="javascript:void(0)"><i class="icon-inbox fs14 mr5"></i>저장</a>
+				<a class="gnBtn_green cWhite w50 mr10" href="photo_view" target="_blank">미리보기</a>
             </div>
             <div class="photoEditWrap mauto mt30" data-page="0" total-page="4">
                 <div class="templateFgPage w"></div>
